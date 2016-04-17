@@ -3,10 +3,10 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
-#Stripe
-gem 'stripe'
-#Figaro
-gem "figaro"
+# Use stripe for handling payments
+gem 'stripe', '1.16.1'
+# Use figaro to hide secret keys
+gem 'figaro', '1.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use bootstrap for stylesheets
